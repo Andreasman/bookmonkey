@@ -55,7 +55,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "BookMonkey:build"
+            "browserTarget": "BookMonkey:build",
+            "open": true
           },
           "configurations": {
             "production": {
@@ -129,5 +130,4 @@
     }
   },
   "defaultProject": "BookMonkey"
-
 }

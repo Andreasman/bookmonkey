@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Book, Thumbnail } from './book';
 
+/**
+ * Service für Bücher.
+ */
 @Injectable({
   providedIn: 'root'
 })
