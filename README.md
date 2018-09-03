@@ -12,4 +12,8 @@ https://angular-buch.com/
 * Iteration 3 abgeschlossen, httpclient und rest eingebunden.
 
 
+### Verwendete REST-Services
+
+https://book-monkey2-api.angular-buch.com
+https://jsonplaceholder.typicode.com/users
 
