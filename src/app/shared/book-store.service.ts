@@ -4,9 +4,7 @@ import { Book, Thumbnail } from './book';
 /**
  * Service für Bücher.
  */
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class BookStoreService {
   books: Book[];
   constructor() {
@@ -34,6 +32,11 @@ export class BookStoreService {
     ];
   }
   getAll() {
+    console.table(this.books);
     return this.books;
+  }
+
+  getSingle(isbn) {
+    return this.books.find(book => book.isbn === isbn);
   }
 }

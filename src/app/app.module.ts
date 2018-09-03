@@ -9,7 +9,7 @@ import { BookStoreService } from './shared/book-store.service';
 import { HomeComponent } from './home/home.component';
 import { BookListItemComponent } from './book-list-item/book-list-item.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
-
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +19,7 @@ import { BookDetailsComponent } from './book-details/book-details.component';
     BookDetailsComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule
