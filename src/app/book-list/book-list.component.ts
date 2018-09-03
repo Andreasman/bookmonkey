@@ -9,6 +9,6 @@ export class BookListComponent implements OnInit {
   books: Book[];
   constructor(private bs: BookStoreService) { }
   ngOnInit() {
-    this.books = this.bs.getAll();
+    this.bs.getAll().subscribe(res => this.books = res);
   }
 }
