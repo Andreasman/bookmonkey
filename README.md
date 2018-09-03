@@ -6,5 +6,8 @@ Diese Angular Projekt wurde generiert mit  [Angular CLI](https://github.com/angu
 
 ## Lernprojekt - Grundlage Angular Buch
 
+https://angular-buch.com/
+
+*Iteration 1 und 2 abgeschlossen.
 
 
